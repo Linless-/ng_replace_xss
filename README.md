@@ -18,6 +18,7 @@
   Сделаны 2 примера в виде директивы для Angular и в виде нативного метода для JavaScript.
 
 ###Angular Директива
+  Подключите файл ngReplaceXss.js и подключите в зависимостях модуль ngReplaceXss
   ```JavaScript
   var app = function($scope) {
     $scope.testHtml = '<div onclick="alert()">testOnClick</div><div onmouseover="alert()" style="color: red;">testOnmouseOver</div>';
