@@ -1,10 +1,10 @@
 # Вырезание тегов script и аттрибутов on* из html строки
 
-##Клоинрование:
+##Клонирование:
   1. git clone https://github.com/Linless-/ng_replace_xss.git
   2. cd ng_replace_xss
 
-##Описание
+##Описание:
   Данная регулярная строка вырезает из html строки все теги с аттрибутом <script></script> и их содержимым, а акже все аттрибуты из html тегов начинающихся на on*
   Тут выложены оформленные примеры в виде директивы для Angular или же нативного метода в JavaScript
 
@@ -17,7 +17,7 @@
 ##Использование:
   Сделаны 2 примера в виде директивы для Angular и в виде нативного метода для JavaScript.
 
-###Angular Директива
+###Angular Директива:
   Подключите файл ngReplaceXss.js и подключите в зависимостях модуль ngReplaceXss
   ```JavaScript
   var app = function($scope) {
@@ -35,7 +35,7 @@
   <br/>
   ![ngReplaceXss](http://i.imgur.com/7pmfBec.png)
 
-###Нативный метод
+###Нативный метод:
   Подключить файл replaceXss.js и будет доступен метод replaceXss, который вернет "пропатченную" строку
   ```JavaScript
   replaceXss(...);
